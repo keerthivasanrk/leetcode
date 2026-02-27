@@ -13,8 +13,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
 ## Stack
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
