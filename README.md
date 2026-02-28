@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/keerthivasanrk/leetcode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Binary Search
 |  |
@@ -50,4 +51,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/keerthivasanrk/leetcode/tree/master/0204-count-primes) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/keerthivasanrk/leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
