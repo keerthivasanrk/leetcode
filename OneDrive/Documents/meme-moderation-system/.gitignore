@@ -1,0 +1,25 @@
+# Virtual environment
+venv310/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights
+weights/
+*.pt
+
+# Datasets
+datasets/
+*.csv
+
+# Upload folders
+uploads/
+temp_uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

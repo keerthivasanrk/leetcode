@@ -1,0 +1,142 @@
+# ==========================================
+# Trading AI – Multi-Pair Signal Engine
+# (ORIGINAL – NO CHARTS)
+# ==========================================
+
+from broker.oanda import OandaBroker
+from config.settings import OANDA_API_KEY, OANDA_ACCOUNT_ID, PAIRS
+
+from engine.candles import CandleBuilder
+from engine.structure import StructureEngine
+from engine.liquidity import LiquidityEngine
+from engine.entry import EntryEngine
+from engine.risk import RiskEngine
+from engine.news import NewsEngine
+
+
+# ==========================================
+# USER INPUT
+# ==========================================
+
+def get_user_inputs():
+    print("\n=== Trading AI Setup ===")
+    balance = float(input("Enter Account Balance ($): "))
+    leverage = int(input("Enter Leverage (e.g. 10, 50, 100, 500): "))
+    print("\nConfiguration locked.\n")
+    return balance, leverage
+
+
+# ==========================================
+# MAIN
+# ==========================================
+
+def main():
+    balance, leverage = get_user_inputs()
+
+    print("🚀 Trading AI Running (Multi-Pair, Signal Only)")
+    print("Broker   : OANDA Practice")
+    print(f"Pairs    : {PAIRS}")
+    print(f"Balance  : ${balance}")
+    print(f"Leverage : 1:{leverage}")
+    print("Risk     : AUTO (1% per trade)")
+    print("Mode     : Signal Only\n")
+    print("Waiting for high-quality setups...\n")
+
+    broker = OandaBroker(OANDA_API_KEY, OANDA_ACCOUNT_ID)
+
+    # ==========================================
+    # ENGINE SETUP PER PAIR
+    # ==========================================
+
+    engines = {}
+
+    for pair in PAIRS:
+        engines[pair] = {
+            "candles": CandleBuilder(),
+            "structure": StructureEngine(),
+            "liquidity": LiquidityEngine(),
+            "entry": EntryEngine(),
+            "risk": RiskEngine(balance),
+            "news": NewsEngine()
+        }
+
+    # ==========================================
+    # PRICE TICK HANDLER
+    # ==========================================
+
+    def on_tick(tick):
+        try:
+            pair = tick["instrument"]
+            engine = engines.get(pair)
+
+            if engine is None:
+                return
+
+            # --- SAFE PRICE EXTRACTION ---
+            bid = float(tick["bids"][0]["price"])
+            ask = float(tick["asks"][0]["price"])
+            price = (bid + ask) / 2
+            tick_time = tick["time"]
+
+            # --- BUILD CANDLE ---
+            candle = engine["candles"].update(tick_time, price)
+            if candle is None:
+                return
+
+            # --- STRUCTURE & LIQUIDITY ---
+            structure = engine["structure"].update(candle)
+            liquidity = engine["liquidity"].update(candle)
+
+            # --- NEWS FILTER ---
+            if engine["news"].is_high_impact():
+                return
+
+            # --- ENTRY CHECK ---
+            trade = engine["entry"].check(
+                candle=candle,
+                structure=structure,
+                liquidity=liquidity
+            )
+
+            if trade is None:
+                return
+
+            # --- RISK CALCULATION ---
+            lot_size = engine["risk"].calculate_position(
+                entry=trade["entry"],
+                stop_loss=trade["sl"],
+                leverage=leverage
+            )
+
+            if lot_size is None:
+                return
+
+            # ======================================
+            # PRINT SIGNAL (ONLY ON VALID SETUP)
+            # ======================================
+
+            print("\n================ TRADE SIGNAL ================")
+            print(f"Pair       : {pair}")
+            print(f"Direction  : {trade['direction']}")
+            print(f"Entry      : {trade['entry']}")
+            print(f"Stop Loss  : {trade['sl']}")
+            print(f"Take Profit: {trade['tp']}")
+            print(f"Lot Size   : {lot_size}")
+            print("=============================================\n")
+
+        except Exception as e:
+            print(f"⚠️ Tick Error ({tick.get('instrument', 'UNKNOWN')}): {e}")
+
+    # ==========================================
+    # START PRICE STREAM
+    # ==========================================
+
+    broker.stream_prices(PAIRS, on_tick)
+
+
+# ==========================================
+# ENTRY POINT
+# ==========================================
+
+if __name__ == "__main__":
+    main()
