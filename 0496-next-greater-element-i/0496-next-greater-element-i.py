@@ -1,26 +1,15 @@
-from typing import List
-
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        ans = []
+        s = []
+        maps = {}
 
-        for i in nums1:
-            found = False
+        for i in nums2:
+            while s and i>s[-1]:
+                small = s.pop()
+                maps[small] = i
 
-            # Find index of i in nums2
-            for j in range(len(nums2)):
-                if nums2[j] == i:
-                    
-                    # Search to the right of j
-                    for k in range(j + 1, len(nums2)):
-                        if nums2[k] > i:
-                            ans.append(nums2[k])
-                            found = True
-                            break
-                    
-                    if not found:
-                        ans.append(-1)
-                    
-                    break   # break after handling this i
+            s.append(i)
+        while s :
+            maps[s.pop()] = -1
 
-        return ans
+        return [maps[i]for i in nums1]
