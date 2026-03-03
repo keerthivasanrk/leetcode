@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/keerthivasanrk/leetcode/tree/master/0204-count-primes) |
 | [0622-design-circular-queue](https://github.com/keerthivasanrk/leetcode/tree/master/0622-design-circular-queue) |
 | [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/keerthivasanrk/leetcode/tree/master/0739-daily-temperatures) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/keerthivasanrk/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Stack
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/keerthivasanrk/leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/keerthivasanrk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/keerthivasanrk/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0739-daily-temperatures](https://github.com/keerthivasanrk/leetcode/tree/master/0739-daily-temperatures) |
 ## Binary Search
 |  |
 | ------- |
@@ -82,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0622-design-circular-queue](https://github.com/keerthivasanrk/leetcode/tree/master/0622-design-circular-queue) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/keerthivasanrk/leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
