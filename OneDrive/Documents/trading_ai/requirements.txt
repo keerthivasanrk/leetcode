@@ -1,6 +1,0 @@
-oandapyV20
-requests
-pytz
-python-dotenv
-feedparser
-flask
