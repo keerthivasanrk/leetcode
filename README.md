@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/keerthivasanrk/leetcode/tree/master/0739-daily-temperatures) |
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/keerthivasanrk/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Stack
 |  |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/keerthivasanrk/leetcode/tree/master/0032-longest-valid-parentheses) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Sliding Window
 |  |
 | ------- |
@@ -126,4 +128,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/keerthivasanrk/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/keerthivasanrk/leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
