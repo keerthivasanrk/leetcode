@@ -6,7 +6,8 @@ class Solution:
         for i in nums:
             if i == 1:
                 curr +=1
-                mc = max(mc,curr)
+                if mc<curr:
+                    mc = curr
             else:
-                curr =0
+                curr = 0
         return mc
