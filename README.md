@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/keerthivasanrk/leetcode/tree/master/0075-sort-colors) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keerthivasanrk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/keerthivasanrk/leetcode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/keerthivasanrk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0485-max-consecutive-ones](https://github.com/keerthivasanrk/leetcode/tree/master/0485-max-consecutive-ones) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0018-4sum](https://github.com/keerthivasanrk/leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/keerthivasanrk/leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
 ## Enumeration
 |  |
 | ------- |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/keerthivasanrk/leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/keerthivasanrk/leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
@@ -134,4 +137,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/keerthivasanrk/leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
