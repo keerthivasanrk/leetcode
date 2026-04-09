@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/keerthivasanrk/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/keerthivasanrk/leetcode/tree/master/0739-daily-temperatures) |
+| [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/keerthivasanrk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/keerthivasanrk/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0622-design-circular-queue](https://github.com/keerthivasanrk/leetcode/tree/master/0622-design-circular-queue) |
+| [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0933-number-of-recent-calls](https://github.com/keerthivasanrk/leetcode/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/keerthivasanrk/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/keerthivasanrk/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Sliding Window
 |  |
@@ -144,8 +147,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
+| [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
