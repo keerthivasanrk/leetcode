@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1901-find-a-peak-element-ii](https://github.com/keerthivasanrk/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/keerthivasanrk/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Stack
 |  |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1901-find-a-peak-element-ii](https://github.com/keerthivasanrk/leetcode/tree/master/1901-find-a-peak-element-ii) |
 ## Number Theory
 |  |
 | ------- |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/keerthivasanrk/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/keerthivasanrk/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [1901-find-a-peak-element-ii](https://github.com/keerthivasanrk/leetcode/tree/master/1901-find-a-peak-element-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
