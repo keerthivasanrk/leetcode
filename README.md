@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0204-count-primes](https://github.com/keerthivasanrk/leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/keerthivasanrk/leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/keerthivasanrk/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/keerthivasanrk/leetcode/tree/master/2520-count-the-digits-that-divide-a-number) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/keerthivasanrk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/keerthivasanrk/leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0704-binary-search](https://github.com/keerthivasanrk/leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/keerthivasanrk/leetcode/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/keerthivasanrk/leetcode/tree/master/1004-max-consecutive-ones-iii) |
