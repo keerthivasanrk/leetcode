@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/keerthivasanrk/leetcode/tree/master/0009-palindrome-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/keerthivasanrk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0204-count-primes](https://github.com/keerthivasanrk/leetcode/tree/master/0204-count-primes) |
+| [0264-ugly-number-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/keerthivasanrk/leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1390-four-divisors](https://github.com/keerthivasanrk/leetcode/tree/master/1390-four-divisors) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/keerthivasanrk/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/keerthivasanrk/leetcode/tree/master/0169-majority-element) |
+| [0264-ugly-number-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/keerthivasanrk/leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/keerthivasanrk/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/keerthivasanrk/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/keerthivasanrk/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0053-maximum-subarray) |
+| [0264-ugly-number-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0264-ugly-number-ii) |
 | [0918-maximum-sum-circular-subarray](https://github.com/keerthivasanrk/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/keerthivasanrk/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Sliding Window
@@ -197,4 +200,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/keerthivasanrk/leetcode/tree/master/0268-missing-number) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/keerthivasanrk/leetcode/tree/master/0264-ugly-number-ii) |
 <!---LeetCode Topics End-->
