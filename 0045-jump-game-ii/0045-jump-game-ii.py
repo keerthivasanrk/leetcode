@@ -8,8 +8,8 @@ class Solution(object):
             if i==curr_end:
                 jump+=1
                 curr_end=farthest
-                if curr_end>=len(nums)-1:
-                    return jump
+            if curr_end>=len(nums)-1:
+                return jump
         return jump
         
         """
