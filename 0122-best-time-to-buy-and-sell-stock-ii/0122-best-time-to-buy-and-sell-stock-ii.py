@@ -3,8 +3,7 @@ class Solution(object):
         profit=0
         for i in range(1,len(prices)):
             if prices[i]>prices[i-1]:
-                val=prices[i]-prices[i-1]
-                profit+=val
+                profit+=prices[i]-prices[i-1]
             else:
                 continue
         return profit
