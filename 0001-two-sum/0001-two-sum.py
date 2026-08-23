@@ -1,14 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
         d={}
-        i=0
-        while i<len(nums):
-            need=target-nums[i]
+        for i,x in enumerate(nums):
+            need = target - x
             if need in d:
                 return [d[need],i]
-            d[nums[i]]=i  
-            i+=1  
-
+            d[x] = i
         """
         :type nums: List[int]
         :type target: int
